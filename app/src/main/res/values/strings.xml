@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">LogisTraffic</string>
+    <string name="user">Username</string>
+    <string name="registar">Registar</string>
+    <string name="nome">Nome</string>
+    <string name="password">Password</string>
+    <string name="checkpassword">Confirmar Password</string>
+    <string name="matricula">Matrícula</string>
+    <string name="pesquisar">Pesquisar</string>
+    <string name="nomeloja">Nome da Loja</string>
+    <string name="lugar">Lugar</string>
+    <string name="distancia">Distância</string>
+    <string name="rua">Rua</string>
+    <string name="concelho">Concelho</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="logout">Logout</string>
+    <string name="sobre">Sobre</string>
+    <string name="registo">Registo</string>
+    <string name="trabalho1">Projeto Final</string>
+    <string name="trabalho2">Desenvolvido por:</string>
+    <string name="bryan">Bryan Dias</string>
+    <string name="diogo">Diogo Negrão</string>
+    <string name="trabalho3">Programação Móvel e Sistemas Ciber-Físicos</string>
+    <string name="versao">v1.0</string>
+    <string name="remover">Remover</string>
+
+
+
 </resources>
