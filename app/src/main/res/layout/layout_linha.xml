@@ -11,6 +11,7 @@
     android:paddingTop="16dp"
     tools:context=".MainActivity">
 
+    <!-- Nome da Loja -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -19,6 +20,7 @@
         tools:ignore="MissingConstraints"
         android:textSize="13sp"/>
 
+    <!-- Estado do Lugar -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -28,6 +30,7 @@
         android:layout_alignParentRight="true"
         android:textSize="13sp"/>
 
+    <!-- Distancia -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -37,6 +40,7 @@
         android:layout_below="@id/nomeLoja"
         android:textSize="13sp"/>
 
+    <!-- Rua -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -45,9 +49,6 @@
         tools:ignore="MissingConstraints"
         android:layout_below="@id/distancia"
         android:textSize="13sp"/>
-
-
-
 
 
 </RelativeLayout>
