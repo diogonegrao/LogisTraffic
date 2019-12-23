@@ -63,7 +63,7 @@ public class RegisterActivity extends AppCompatActivity {
 
 
                 if (username.length() < 5|| password_1.length() < 5) {
-                    Toast.makeText(RegisterActivity.this, "a password menor que 5 carateres", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(RegisterActivity.this, getResources().getString(R.string.errorconditionlogin), Toast.LENGTH_SHORT).show();
                 } else {
 
 
@@ -90,7 +90,7 @@ public class RegisterActivity extends AppCompatActivity {
                             } else {
 
 
-                                Toast.makeText(RegisterActivity.this, "password não igual", Toast.LENGTH_LONG).show();
+                                Toast.makeText(RegisterActivity.this, getResources().getString(R.string.errorpasswd), Toast.LENGTH_LONG).show();
                             }
                         }
                     });

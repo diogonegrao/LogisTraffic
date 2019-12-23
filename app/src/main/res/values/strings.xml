@@ -24,6 +24,13 @@
     <string name="trabalho3">Programação Móvel e Sistemas Ciber-Físicos</string>
     <string name="versao">v1.0</string>
     <string name="remover">Remover</string>
+    <string name="errorpasswd">Password não são iguais</string>
+    <string name="errouser">Username já registado por favor introduza outro username</string>
+    <string name="errorconditionlogin">Password não contem caracteres necessários</string>
+    <string name="errorlog">Login Errado </string>
+    <string name="loja1">Pingo Doce </string>
+    <string name="concelho1">Viana do Castelo </string>
+    <string name="km">kms </string>
 
 
 

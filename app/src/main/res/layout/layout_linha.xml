@@ -40,11 +40,22 @@
         android:layout_below="@id/nomeLoja"
         android:textSize="13sp"/>
 
+    <!-- kms -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/km"
+        android:layout_below="@id/nomeLoja"
+        android:text="@string/km"
+        android:layout_toRightOf="@id/distancia"
+        android:textSize="13dp"/>
+
+
     <!-- Rua -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/morada"
+        android:id="@+id/rua"
         android:text="@string/rua"
         tools:ignore="MissingConstraints"
         android:layout_below="@id/distancia"

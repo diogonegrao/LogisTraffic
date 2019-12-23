@@ -24,6 +24,13 @@
     <string name="trabalho3">Mobile Programming and Cyber-Physical Systems</string>
     <string name="versao">v1.0</string>
     <string name="remover">Remove</string>
+    <string name="errorpasswd">Password doesnt match</string>
+    <string name="errouser">Username already exists</string>
+    <string name="errorconditionlogin">Password does not contain required characters</string>
+    <string name="errorlog">Wrong Login</string>
+    <string name="loja1">Pingo Doce </string>
+    <string name="concelho1">Viana do Castelo </string>
+    <string name="km">kms </string>
 
 
 

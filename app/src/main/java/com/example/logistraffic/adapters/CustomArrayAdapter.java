@@ -26,8 +26,8 @@ public class CustomArrayAdapter extends ArrayAdapter<Loja> {
             convertView= LayoutInflater.from(getContext()).inflate(R.layout.layout_linha,parent,false);
         }
 
-        ((TextView) convertView.findViewById(R.id.nome)).setText(l.getNome());
-        ((TextView) convertView.findViewById(R.id.distancia)).setText(l.getDistancia());
+        ((TextView) convertView.findViewById(R.id.nomeLoja)).setText(l.getNome());
+        ((TextView) convertView.findViewById(R.id.distancia)).setText(l.getDistancia().toString());
         ((TextView) convertView.findViewById(R.id.rua)).setText(l.getRua());
         ((TextView) convertView.findViewById(R.id.lugar)).setText(l.getLugares());
 

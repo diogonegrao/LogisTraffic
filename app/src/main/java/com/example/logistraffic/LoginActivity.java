@@ -81,7 +81,7 @@ public class LoginActivity extends AppCompatActivity {
                 }, new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(LoginActivity.this, "login errado", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(LoginActivity.this, getResources().getString(R.string.errorlog), Toast.LENGTH_SHORT).show();
                     }
                 });
                 MySingleton.getInstance(LoginActivity.this).addToRequestQueue(jsonObjectRequest);

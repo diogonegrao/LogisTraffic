@@ -5,18 +5,20 @@ import java.io.Serializable;
 public class Loja implements Serializable {
     private Integer id;
     private String nome;
-    private String distancia;
-    private String concelho;
+    private String estado_lugar;
     private String rua;
-    private String lugares;
+    private String concelho_id;
+    private int distancia;
 
-    public Loja (Integer id, String nome, String distancia, String concelho, String rua, String lugares){
+
+
+    public Loja (Integer id, String nome, String estado_lugar, String rua, String concelho_id, Integer distancia){
         this.id = id;
         this.nome = nome;
-        this.distancia = distancia;
-        this.concelho = concelho;
+        this.concelho_id = concelho_id;
         this.rua = rua;
-        this.lugares = lugares;
+        this.estado_lugar = estado_lugar;
+        this.distancia = distancia;
     }
 
     // GETTERS
@@ -24,25 +26,27 @@ public class Loja implements Serializable {
 
     public String getNome() { return nome; }
 
-    public String getDistancia() { return distancia; }
+    public Integer getDistancia() { return distancia; }
 
-    public String getConcelho() { return concelho; }
+    public String getConcelho() { return concelho_id; }
 
     public String getRua() { return rua; }
 
-    public String getLugares() { return lugares; }
+    public String getLugares() { return estado_lugar; }
 
     // SETTERS
     public void setNome(String nome) {
         this.nome = nome;
     }
 
-    public void setDistancia(String distancia) {
+
+    public void setDistancia(Integer distancia) {
         this.distancia = distancia;
     }
 
+
     public void setConcelho(String concelho) {
-        this.concelho = concelho;
+        this.concelho_id = concelho;
     }
 
     public void setRua(String rua) {
@@ -50,6 +54,6 @@ public class Loja implements Serializable {
     }
 
     public void setLugares(String lugares) {
-        this.lugares = lugares;
+        this.estado_lugar = lugares;
     }
 }
