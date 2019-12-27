@@ -38,7 +38,7 @@ public class AdicionarActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_adicionar);
 
-        String nomeLoja = getIntent().getStringExtra(Utils.PARAM_NOME_LOJA);
+        final String nomeLoja = getIntent().getStringExtra(Utils.PARAM_NOME_LOJA);
         int idConcelho = 1;
         listView = (ListView) findViewById(R.id.lista);
 
@@ -74,17 +74,24 @@ public class AdicionarActivity extends AppCompatActivity {
         });
         MySingleton.getInstance(this).addToRequestQueue(jsonObjectRequest);
 
+
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
                 Loja l = arrayLoja.get(position);
-                idLoja = l.getId();
+                //idLoja = l.getId();
+
                 Intent intent = new Intent(AdicionarActivity.this, MainActivity.class);
-                intent.putExtra("ver", idLoja);
+                intent.putExtra("ver", l);
                 startActivity(intent);
+
+
+
             }
         });
+
+
 
     }
 }

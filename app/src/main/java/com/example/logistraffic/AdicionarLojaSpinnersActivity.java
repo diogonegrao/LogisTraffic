@@ -110,7 +110,7 @@ public class AdicionarLojaSpinnersActivity extends AppCompatActivity {
 
     public void botaoPesquisa(View v){
         String passar_nomeLoja = getString(R.string.loja1);
-        //String passar_idConcelho = "1";
+        String passar_idConcelho = "1";
 
         Intent intent = new Intent(AdicionarLojaSpinnersActivity.this, AdicionarActivity.class);
 
