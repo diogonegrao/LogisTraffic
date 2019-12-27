@@ -7,6 +7,7 @@
     android:padding="16dp"
     tools:context=".RegisterActivity">
 
+    <!-- Layout 1 -->
     <LinearLayout
         android:id="@+id/layout1"
         android:layout_width="match_parent"
@@ -16,6 +17,7 @@
         android:layout_centerInParent="true">
 
 
+        <!-- Nome -->
         <EditText
             android:id="@+id/nome"
             android:layout_width="match_parent"
@@ -23,6 +25,7 @@
             android:hint="@string/nome"
             android:layout_marginBottom="5dp"/>
 
+        <!-- username -->
         <EditText
             android:id="@+id/username"
             android:layout_width="match_parent"
@@ -30,6 +33,7 @@
             android:hint="@string/user"
             android:layout_marginBottom="5dp"/>
 
+        <!-- password -->
         <EditText
             android:id="@+id/password"
             android:layout_width="match_parent"
@@ -38,6 +42,7 @@
             android:hint="@string/password"
             android:layout_marginBottom="5dp"/>
 
+        <!-- confirmar password -->
         <EditText
             android:id="@+id/checkpassword"
             android:layout_width="match_parent"
@@ -46,6 +51,7 @@
             android:hint="@string/checkpassword"
             android:layout_marginBottom="5dp"/>
 
+        <!-- matricula -->
         <EditText
             android:id="@+id/matricula"
             android:layout_width="match_parent"
@@ -53,6 +59,7 @@
             android:hint="@string/matricula"/>
     </LinearLayout>
 
+    <!-- Layout botoes -->
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -61,6 +68,7 @@
         android:orientation="horizontal"
         android:layout_centerInParent="true">
 
+        <!-- Botao registar -->
         <Button
             android:id="@+id/registar"
             android:layout_width="wrap_content"
@@ -70,9 +78,6 @@
             tools:layout_editor_absoluteY="259dp"
             android:layout_marginTop="25dp"
             android:layout_marginRight="20dp"></Button>
-
-
-
 
     </LinearLayout>
 

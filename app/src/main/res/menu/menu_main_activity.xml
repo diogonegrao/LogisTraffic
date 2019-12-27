@@ -2,18 +2,21 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <!-- Adicionar -->
     <item
         android:id="@+id/adicionar"
         android:title="@string/adicionar"
         app:showAsAction="always"
         android:icon="@drawable/add_2x"/>
 
+    <!-- Logout -->
     <item
         android:id="@+id/logout"
         android:title="@string/logout"
         app:showAsAction="never"
         android:icon="@drawable/return_2x"/>
 
+    <!-- Sobre -->
     <item
         android:id="@+id/sobre"
         android:title="@string/sobre"

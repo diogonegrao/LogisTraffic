@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".RegisterActivity">
 
+    <!-- Cancelar -->
     <item
         android:id="@+id/cancelar"
         android:title="@string/cancelar"
