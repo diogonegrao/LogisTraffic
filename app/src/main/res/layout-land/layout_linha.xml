@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Nome da Loja -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nomeLoja"
+        android:text="@string/nomeloja"
+        tools:ignore="MissingConstraints"
+        android:textSize="13sp"/>
+
+    <!-- Estado do Lugar -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lugar"
+        android:text="@string/lugar"
+        tools:ignore="MissingConstraints"
+        android:layout_alignParentRight="true"
+        android:textSize="13sp"/>
+
+    <!-- Distancia -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/distancia"
+        android:text="@string/distancia"
+        tools:ignore="MissingConstraints"
+        android:layout_below="@id/nomeLoja"
+        android:textSize="13sp"/>
+
+    <!-- kms -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/km"
+        android:layout_below="@id/nomeLoja"
+        android:text="@string/km"
+        android:layout_toRightOf="@id/distancia"
+        android:textSize="13dp"/>
+
+
+    <!-- Rua -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rua"
+        android:text="@string/rua"
+        tools:ignore="MissingConstraints"
+        android:layout_below="@id/distancia"
+        android:textSize="13sp"/>
+
+
+</RelativeLayout>

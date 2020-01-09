@@ -21,16 +21,16 @@
             android:id="@+id/texto_bemvindo"
             android:text="@string/bemvindo"
             android:textSize="25sp"
-            android:layout_marginTop="80dp"/>
+            android:layout_marginTop="20dp"/>
 
-        <!-- Bem vindo -->
+        <!-- Bem vindo 2 - Introduzir os dados -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/texto_bemvindo2"
             android:text="@string/bemvindo2"
             android:textSize="15sp"
-            android:layout_marginTop="45dp" />
+            android:layout_marginTop="5dp" />
 
 
     </LinearLayout>
@@ -75,7 +75,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="@string/password"
-            android:layout_marginBottom="50dp"/>
+            android:layout_marginBottom="10dp"/>
     </LinearLayout>
 
 

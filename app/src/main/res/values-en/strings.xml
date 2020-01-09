@@ -31,6 +31,9 @@
     <string name="loja1">Pingo Doce </string>
     <string name="concelho1">Viana do Castelo </string>
     <string name="km">kms </string>
+    <string name="login">Login </string>
+    <string name="bemvindo">Welcome to LogisTraffic</string>
+    <string name="bemvindo2">Please enter your login credentials</string>
 
 
 
